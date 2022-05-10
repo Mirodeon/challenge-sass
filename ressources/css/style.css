@@ -26,18 +26,17 @@ body main {
 body main .messages {
   padding: 16px;
 }
-body main .messages .success,
-body main .messages .error,
-body main .messages .warning {
+body main .messages .success, body main .messages .warning, body main .messages .error {
+  background-color: green;
   border: 1px solid #8C8C8C;
   padding: 16px;
   color: #fff;
 }
-body main .messages .success {
-  background-color: green;
-}
 body main .messages .error {
   background-color: red;
+}
+body main .messages .error:hover {
+  background-color: green;
 }
 body main .messages .warning {
   background-color: orange;

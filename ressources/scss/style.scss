@@ -29,23 +29,24 @@ body {
         .messages {
             padding: 16px;
 
-            .success,
-            .error,
-            .warning {
+            .success {
+                background-color: green;
                 border: 1px solid #8C8C8C;
                 padding: 16px;
                 color: #fff;
             }
 
-            .success {
-                background-color: green;
-            }
-
             .error {
+                @extend .success;
                 background-color: red;
+
+                &:hover {
+                    background-color: green;
+                }
             }
 
             .warning {
+                @extend .success;
                 background-color: orange;
             }
         }
