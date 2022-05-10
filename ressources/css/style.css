@@ -2,7 +2,7 @@ body {
   font: 100% "Space Mono", monospace;
   color: #6b717f;
   margin: 0;
-  padding: 0;
+  padding: 25px;
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -17,19 +17,19 @@ body h1 {
 body h3 {
   text-align: center;
   font-size: 1.5em;
-  padding: 32px;
+  padding: 50px;
   margin-bottom: 0px;
 }
 body main {
-  padding: 0 1em;
+  padding: 0px 25px;
 }
 body main .messages {
-  padding: 16px;
+  padding: 25px;
 }
 body main .messages .success, body main .messages .warning, body main .messages .error {
   background-color: green;
   border: 1px solid #8C8C8C;
-  padding: 16px;
+  padding: 25px;
   color: #fff;
 }
 body main .messages .error {
@@ -44,13 +44,14 @@ body main .messages .warning {
 body main article {
   display: flex;
   flex-wrap: wrap;
+  padding: 25px;
 }
 body main article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px #8C8C8C solid;
   box-shadow: 10px 10px 15px -4px #6b717f;
-  padding: 16px;
+  padding: 25px;
   margin: 16px;
   clear: both;
   overflow: auto;
@@ -71,7 +72,7 @@ body main article section code {
   margin-bottom: 1.6em;
   max-width: 100%;
   overflow: auto;
-  padding: 1em 1.5em;
+  padding: 25px;
   display: block;
   word-wrap: break-word;
 }
