@@ -23,7 +23,7 @@ $padding2: 0px 25px;
             $colorbgafter: darken($color9, $i * 5%);
             $colorbgbefore: darken($color9, calc($i - 1) * 5%);
             color: lighten($color10, $i * 10%);
-            background: linear-gradient(to bottom, $colorbgbefore, $colorbgafter)
+            background: linear-gradient(to bottom, $colorbgbefore, $colorbgafter);
         }
     }
 }
