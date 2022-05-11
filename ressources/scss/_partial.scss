@@ -7,7 +7,7 @@ $color6: red;
 $color7: orange;
 $color8: #000;
 $color9: #d62828;
-$color10: #917602;
+$color10: #cfb700;
 $padding1: 25px;
 $padding2: 0px 25px;
 
@@ -20,8 +20,10 @@ $padding2: 0px 25px;
 @for $i from 1 through 6 {
     ul.advantages {
         li:nth-child(#{$i}) {
-            background-color: darken($color9, $i * 5%);
-            color: lighten($color10, $i * 5%);
+            $colorbgafter: darken($color9, $i * 5%);
+            $colorbgbefore: darken($color9, calc($i - 1) * 5%);
+            color: lighten($color10, $i * 10%);
+            background: linear-gradient(to bottom, $colorbgbefore, $colorbgafter)
         }
     }
 }

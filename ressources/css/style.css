@@ -1,31 +1,31 @@
 ul.advantages li:nth-child(1) {
-  background-color: #c12424;
-  color: #aa8a02;
+  color: #ffe203;
+  background: linear-gradient(to bottom, #d62828, #c12424);
 }
 
 ul.advantages li:nth-child(2) {
-  background-color: #ab2020;
-  color: #c39f03;
+  color: #ffe836;
+  background: linear-gradient(to bottom, #c12424, #ab2020);
 }
 
 ul.advantages li:nth-child(3) {
-  background-color: #961c1c;
-  color: #dcb303;
+  color: #ffee69;
+  background: linear-gradient(to bottom, #ab2020, #961c1c);
 }
 
 ul.advantages li:nth-child(4) {
-  background-color: #801818;
-  color: #f6c803;
+  color: #fff49c;
+  background: linear-gradient(to bottom, #961c1c, #801818);
 }
 
 ul.advantages li:nth-child(5) {
-  background-color: #6b1414;
-  color: #fcd117;
+  color: #fff9cf;
+  background: linear-gradient(to bottom, #801818, #6b1414);
 }
 
 ul.advantages li:nth-child(6) {
-  background-color: #551010;
-  color: #fcd630;
+  color: white;
+  background: linear-gradient(to bottom, #6b1414, #551010);
 }
 
 body {
